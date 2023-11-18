@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #00453e;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo{
+    background-image: url(/assets/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size : cover;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/** box 2**/
+
+.add-first {
+    color: #ccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    color: #ffff;
+    font: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+
+}
+
+/** box 3**/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #febdf8;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 45px;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #0f1111;
+}
+
+/** box 4 **/
+.flag {
+    display: flex;
+    background-color: #00453e;
+    border: none;
+}
+
+.language {
+    background-color: #00453e;
+    border: none;
+}
+
+.english {
+    background-color: #00453e;
+    border: none;
+    color: #ffff;
+}
+
+/** box 5 **/
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/**box 6**/
+
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700px;
+    
+}
+
+
+/** pannel **/
+
+.pannel{
+    height: 40px;
+    background-color: #018376;
+    display: flex;
+}
+.pannel-ops {
+    display: flex;
+}
+
+.pannel-ops p{
+    display: align;
+}
