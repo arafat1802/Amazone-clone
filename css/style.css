@@ -22,7 +22,7 @@
 
 
 .logo{
-    background-image: url(/assets/amazon_logo.png);
+    background-image: url(../assets/amazon_logo.png);
     height: 50px;
     width: 100%;
     background-size : cover;
@@ -147,11 +147,29 @@ span {
     height: 40px;
     background-color: #018376;
     display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.pannel-ops p{
+    display: inline;
+    margin: 15px;
 }
 .pannel-ops {
-    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
 }
 
 .pannel-ops p{
     display: align;
+}
+.shop-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/** hero section**/
+.hero-section {
+    background-image: url(../assets/hero_image.jpg);
+    height: 600px;
 }
