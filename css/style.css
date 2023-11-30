@@ -22,7 +22,7 @@
 
 
 .logo{
-    background-image: url(assets/amazon_logo.png);
+    background-image: url(../assets/amazon_logo.png);
     height: 50px;
     width: 100%;
     background-size : cover;
@@ -263,7 +263,7 @@ ul a{
 }
 
 .logo{
-    background-image: url(assets/amazon_logo.png);
+    background-image: url(../assets/amazon_logo.png);
     height: 50px;
     width: 100px;
     background-size : cover;
